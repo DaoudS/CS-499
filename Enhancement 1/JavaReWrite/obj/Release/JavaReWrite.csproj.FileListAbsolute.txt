@@ -1,0 +1,7 @@
+C:\Users\daoud\source\repos\JavaReWrite\JavaReWrite\bin\Release\JavaReWrite.exe.config
+C:\Users\daoud\source\repos\JavaReWrite\JavaReWrite\bin\Release\JavaReWrite.exe
+C:\Users\daoud\source\repos\JavaReWrite\JavaReWrite\bin\Release\JavaReWrite.pdb
+C:\Users\daoud\source\repos\JavaReWrite\JavaReWrite\obj\Release\JavaReWrite.csproj.AssemblyReference.cache
+C:\Users\daoud\source\repos\JavaReWrite\JavaReWrite\obj\Release\JavaReWrite.csproj.CoreCompileInputs.cache
+C:\Users\daoud\source\repos\JavaReWrite\JavaReWrite\obj\Release\JavaReWrite.exe
+C:\Users\daoud\source\repos\JavaReWrite\JavaReWrite\obj\Release\JavaReWrite.pdb
