@@ -55,6 +55,7 @@ I do think that I met my original goals set forth in my initial description from
 			throw new Exception("Contact does not exist");
 ```
 
+####### Method from ContactService
 ```
 		public void AddContact(string firstName, string lastName, string phoneNumber, string address) {
 			Contact contact = new Contact(GenContactID(), firstName, lastName, phoneNumber, address);
