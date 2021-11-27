@@ -29,7 +29,7 @@ As it relates to Databases. I planned to make use of the python script I had cre
 ### Artifact Description
 The project originates from my CS-320: Software Testing, Automation, and Quality Assurance class. Its focus was on creating a number of services that revolved on new objects and types that we would create. The service code that we wrote focused on manipulation attributes of hte object not too dissimilar to crud operations. It was create during term 21EW6.
 
-####Justification for Inclusion
+#### Justification for Inclusion
 This artifact was included as it demonstrates at a base level my understanding of use cases for practical unit tests applied to a development project. More than anything it shows my ability to understand abstract object oriented programming techniques and my ability to make use of varying frameworks to produce the same outcome across languages. 
 
 
@@ -42,7 +42,7 @@ Throughout the conversion of the code from Java to C# I made fine edits into the
 I do think that I met my original goals set forth in my initial description from module one. Though I did somewhat reduce my original intention in scope. The project as it was in java consisted of three or so smaller projects where I was creating an item and an item service. Take for example Contact and ContactService. There were two others just like and after having converted all of them, I did not think it necessary to create unit tests for all six files know that they all did the same thing with a very slight deviation.
 #### Code Snippets
 
-######  Method from ContactService
+#####  Method from ContactService
 ```
 		public Contact FindContact(string contactID) {
 			int index = 0;
@@ -80,7 +80,7 @@ I do think that I met my original goals set forth in my initial description from
 
 
 
-#Enhancement Two
+# Enhancement Two
 #### Artifact Description
 This was a project consisting of java code submitted in project two of my  IT-145: Foundation in Application class during term 20EW5.
 
