@@ -3,7 +3,20 @@
 ## CS-499 Computer Science Capstone ePortfolio
 ### Professional self-assessment
 
-#### Self Assessment 
+# Self Assessment
+### Overview
+Over the last two and half years, I have been a student of computer science here at Southern New Hampshire University. Of the course of this time, I’ve been able to an experience a breadth of computer science topics and project to include but not limited to, client/server development, databases, 3-D visuals, unit testing, and much more. 
+### Team Collaboration
+My ability to work in a team has further been developed through the classes here as I have made use of version control software with users working on the same project. It was not my first-time making use of this sort of software but, it was in fact my first time using this software on an active project with twenty plus individuals. This coupled with my newfound knowledge on the software development lifecycle, make me ore apt than ever to work on a project as part of team. 
+### Stakeholder Communication
+My ability to communicate and effectively communicate my plans and ideas as well as translate the ideas and communications of stakeholders into functional product has also been heightened. Many of the project worked on during this degree program required me produce working code after reading project guidelines. My main value to stakeholders after going through this degree program would be my ability to code that solves business solutions and my ability to take their communications and turn that into working solutions.
+### Data Structures and Algorithms
+As it relates to Algorithms and Data Structure, my goal was to improve the efficiency of the java code submitted in project two of IT-145: Foundation in Application. With a bit of additional complexity added to the project. My goal with efficiency was to implement secure coding techniques such as but not limited to input/data validation and to put the code in compliance with Java language guidelines. Regarding the expansion of complexity, I planned to add further attribute and parameters to some of the existing classes in the project, while also creating new classes based the data provided in the database found in project. The two being about animals or animal shelters lent themselves well to mixing and matching of the data. 
+
+### Software Engineering
+For the focuses of software design and engineering, my goal was to takethe final project from CS -320 or Software Testing, Automation, and Quality Assurance, with the express intent of converting its functionality into another language. The project as it stood, was functioning via the java language and Junit framework. A popular unit testing framework in Java. My goal was to take my project and convert it into C# and its localized unit testing framework. Those being XUnit, NUnit, or MSTest. I felt that successfully accomplishing this would demonstrate my ability to understand the abstract concepts of object orient programming and software testing regardless of the programming language I am tasked with accomplishing this in. 
+### Databases
+As it relates to Databases. I planned to make use of the python script I had created to perform crud operations with the animal shelters database. My primary goal for an increase in complexity was to make use of the database and pymongo/mongodb to allow the user to make more varied and complex queries with the given database. More specifically my goal was to create a dash application where the user can interact with the data by generating graphs that display statistics about the given database or query. Being able to accomplish this feat, demonstrated my ability to interact with a given database and generate data that is both customizable and adaptable to the needs of the user requesting the data.
 
 
 
