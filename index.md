@@ -41,8 +41,9 @@ Throughout the conversion of the code from Java to C# I made fine edits into the
 
 I do think that I met my original goals set forth in my initial description from module one. Though I did somewhat reduce my original intention in scope. The project as it was in java consisted of three or so smaller projects where I was creating an item and an item service. Take for example Contact and ContactService. There were two others just like and after having converted all of them, I did not think it necessary to create unit tests for all six files know that they all did the same thing with a very slight deviation.
 #### Code Snippets
-<code> 
 
+######  Method from ContactService
+```
 		public Contact FindContact(string contactID) {
 			int index = 0;
 			while (index < contacts.Count) {
@@ -52,14 +53,15 @@ I do think that I met my original goals set forth in my initial description from
 				index++;
 			}
 			throw new Exception("Contact does not exist");
-</code>
+```
 
+```
 		public void AddContact(string firstName, string lastName, string phoneNumber, string address) {
 			Contact contact = new Contact(GenContactID(), firstName, lastName, phoneNumber, address);
 			contacts.Add(contact);
-<code>
-</code>
-<code>
+```
+###### Test Method for Contact
+```
 		[TestMethod()]
 		public void UpdateContactLastNameTest() {
 			string lastNamePasses = "Sogoba";
@@ -71,7 +73,7 @@ I do think that I met my original goals set forth in my initial description from
 
 			Assert.AreEqual(lastNamePasses, contacts[0].GetLastName());
 		}  
-</code>
+```
 
 
 
@@ -90,20 +92,22 @@ I was able to complete and flesh out the rest of the services specified in the c
 I do think that I was able to meet the goal that I had set in module one about the intent for these enhancements. Some enhancements I made were not even identified until I was able to start programming in delve more deeply into the workings of the code. One of the smaller things I learned while developing this codebase was that one kid separate the scope a variable in switch statements by using curly braces. Now that does sound like a simple thing to understand it and it is but, it wasn't something I needed to know until working on this codebase. Like any other project it forced me to become more familiar with the troubleshooting tools provided by the software I was using at the time. In this case that was VScode. I think one of the larger challenges I faced was not so much with the code but more with myself. Fatigue found me struggling to troubleshoot some portions of the codebase because I was overlooking variable references or method calls. It was sort of a friendly reminder to me that resident corporation is just as important as anything else will developing.
 
 #### Code Snippets
-<code>
+
+######  Method from Driver Class
+```
 /**
- * Animal object is remove from animals collection upon sucess of findAnimal method
+ * Animal object is remove from animals collection upon success of findAnimal method
  * @param aID
  * @throws Exception
  */
 
     public static void outProcessAnimal(String aID) throws Exception {
-        System.out.println("Removal of animal of id: " + aID + " suceeded.");
+        System.out.println("Removal of animal of id: " + aID + " succeeded.");
         rs.remove(aID);
     }
-</code>
-
-<code>
+```
+###### Method from Driver class
+```
 /**
  * Generates object of type dog using random attributes and adds object to animals collection.
  */
@@ -141,7 +145,7 @@ I do think that I was able to meet the goal that I had set in module one about t
         rs.addAnimal(randomDog);
     }
     /**
-</code>
+```
 
 
 ## Enhancement Three
@@ -158,21 +162,24 @@ During the process of the enhancement, I found myself struggling with some of th
 
 #### Code Snippets
 
-<code>
+###### Method from C.R.U.D script
+```
     def update(self, filter, update):
         """Update document in DB.
 
         Keyword arguments:
-        filter -- dictonary with db document to select
-        update -- dictonary with changes to the filtered db document
+        filter -- dictionary with db document to select
+        update -- dictionary with changes to the filtered db document
         """
         if filter and update is not None:
             data_result = self.collection.update_one(filter, update)
             return data_result
         else:
             raise Exception("Data Param is empty")
-</code>
-<code> 
+```
+
+###### Method from Dash dashboard
+``` 
 def update_dashboard(value):
 
     if value == 'all':
@@ -185,4 +192,4 @@ def update_dashboard(value):
         df = pd.DataFrame.from_records(shelter.read({"breed":{"$in":["Doberman Pinscher", "German Shepherd", "Golden Retriever", "Bloodhound", "Rottweiler"]}, "sex_upon_outcome":"Intact Male", "age_upon_outcome_in_weeks":{"$gt":"20"},"age_upon_outcome_in_weeks":{"$lt":"300"}}))   
     
     return df.to_dict('records')
-</code>
+```
